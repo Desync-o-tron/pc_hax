@@ -14,3 +14,9 @@ apt-get -y install cinnamon
 
 #### config stuff..
 timedatectl set-local-rtc 1 --adjust-system-clock
+
+### git config stuff...
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.st status
