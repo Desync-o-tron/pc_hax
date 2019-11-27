@@ -1,20 +1,23 @@
 #/bin/bash
 
+#adding repos...
+sudo apt-add-repository ppa:agornostal/ulauncher 
+
 #installing jank...
+sudo apt-get -y update
+sudo apt-get -y upgrade
 snap install code
 sudo apt-get -y install python #
 sudo apt-get -y install python3 #
 sudo apt-get -y install python-pip
 sudo apt-get -y install python3-pip
-sudo apt-get -y update
-sudo apt-get -y upgrade
 sudo apt-get -y install docker.io
 sudo apt-get -y install vim
 sudo apt-get -y install git
 sudo apt-get -y install fish
 sudo apt-get -y install redshift
 sudo apt-get -y install cinnamon
-sudo apt-get -y install curl
+sudo apt-get -y install ulauncher
 sudo apt-get -y install curl
 sudo apt-get -y install curl
 sudo apt-get -y install curl
@@ -32,7 +35,7 @@ git config --global alias.br branch
 git config --global alias.ci commit
 git config --global alias.st status
 git config --global user.name "desync-o-tron"
-git config --global user.name "deltav@vt.edu"
+git config --global user.email "deltav@vt.edu"
 
 #docker config
 sudo groupadd docker
