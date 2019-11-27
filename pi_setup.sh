@@ -32,6 +32,8 @@ sudo apt-get -y install curl
 
 #### config stuff..
 #printf "usbhid.mousepoll=2" >> /boot/cmdline.txt #untested...run twice and see what happens..maybe add a check to see if it's already there.
+sudo systemctl enable ssh
+sudo systemctl start ssh
 
 ### git config stuff...
 git config --global alias.co checkout

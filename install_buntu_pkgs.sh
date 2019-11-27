@@ -17,7 +17,7 @@ sudo apt-get -y install git
 sudo apt-get -y install fish
 sudo apt-get -y install redshift
 sudo apt-get -y install cinnamon
-sudo apt-get -y install ulauncher
+sudo apt-get -y install ulauncher #TODO figure out how to autolaunch this beeetch
 sudo apt-get -y install curl
 sudo apt-get -y install curl
 sudo apt-get -y install curl
