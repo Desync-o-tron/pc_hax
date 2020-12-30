@@ -15,3 +15,5 @@ alias merge="git merge"
 
 alias stash="git stash"
 alias pop="git stash pop"
+
+alias clone="git clone"
